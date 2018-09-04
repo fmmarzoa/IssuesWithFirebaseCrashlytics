@@ -42,6 +42,7 @@ import android.widget.AdapterView
 import android.widget.GridView
 import android.widget.ListView
 import android.widget.SeekBar
+import com.google.samples.apps.topeka.base.R
 import com.google.samples.apps.topeka.model.quiz.AlphaPickerQuiz
 import com.google.samples.apps.topeka.model.quiz.FillBlankQuiz
 import com.google.samples.apps.topeka.model.quiz.FillTwoBlanksQuiz

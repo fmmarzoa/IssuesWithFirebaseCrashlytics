@@ -1,19 +1,10 @@
 # Firebase Crashlytics Integration
 
-The original app for this example has been taken from here:
+In this workaround I'm going to keep the package ids as they are and instead I'll set the google_app_id manually in the 
+res/values/strings.xml file.
 
-https://codelabs.developers.google.com/codelabs/android-instant-apps/#0
-
-Integrated Firebase Crashlytics following this official document:
-
-https://firebase.google.com/docs/crashlytics/get-started
-
-I got into some support library conflicts right after adding com.google.gms.google-services. I managed to work those around.
-
-Now, if I try to build the APKs I get the following error, as expected:
+Unfortunately this continues complaining about:
 
 "No matching client found for package name 'com.google.samples.apps.topeka.base'"
 
-I'm going to add some branches with workarounds I have tried.
-
-
+In my production app, nonetheless, this seems to give a different problem but it didn't worked anyway.
