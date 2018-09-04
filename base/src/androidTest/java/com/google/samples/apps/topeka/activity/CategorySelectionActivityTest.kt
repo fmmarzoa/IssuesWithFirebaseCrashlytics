@@ -32,7 +32,7 @@ import android.support.test.filters.LargeTest
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 import android.support.v7.widget.RecyclerView
-import com.google.samples.apps.topeka.base.R
+import com.google.samples.apps.topeka.R
 import com.google.samples.apps.topeka.TestLogin
 import com.google.samples.apps.topeka.helper.database
 import com.google.samples.apps.topeka.helper.isLoggedIn

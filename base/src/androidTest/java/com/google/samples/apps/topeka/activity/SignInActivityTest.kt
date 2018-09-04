@@ -35,7 +35,7 @@ import android.support.test.filters.LargeTest
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 import android.view.View
-import com.google.samples.apps.topeka.base.R
+import com.google.samples.apps.topeka.R
 import com.google.samples.apps.topeka.TestLogin
 import com.google.samples.apps.topeka.helper.login
 import com.google.samples.apps.topeka.helper.logout

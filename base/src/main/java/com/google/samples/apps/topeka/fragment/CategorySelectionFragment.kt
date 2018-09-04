@@ -31,7 +31,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
-import com.google.samples.apps.topeka.base.R
+import com.google.samples.apps.topeka.R
 import com.google.samples.apps.topeka.adapter.CategoryAdapter
 import com.google.samples.apps.topeka.helper.ActivityLaunchHelper
 import com.google.samples.apps.topeka.helper.TransitionHelper

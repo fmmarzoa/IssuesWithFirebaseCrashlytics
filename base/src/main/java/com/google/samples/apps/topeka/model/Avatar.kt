@@ -18,7 +18,7 @@ package com.google.samples.apps.topeka.model
 
 import android.support.annotation.DrawableRes
 
-import com.google.samples.apps.topeka.base.R
+import com.google.samples.apps.topeka.R
 
 /**
  * The available avatars with their corresponding drawable resource ids.

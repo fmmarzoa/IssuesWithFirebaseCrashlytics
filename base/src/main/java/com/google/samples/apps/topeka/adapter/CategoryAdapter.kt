@@ -30,7 +30,7 @@ import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.ImageView
 import android.widget.TextView
-import com.google.samples.apps.topeka.base.R
+import com.google.samples.apps.topeka.R
 import com.google.samples.apps.topeka.helper.ApiLevelHelper
 import com.google.samples.apps.topeka.helper.database
 import com.google.samples.apps.topeka.model.Category

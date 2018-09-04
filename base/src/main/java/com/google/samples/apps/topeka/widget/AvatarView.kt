@@ -30,7 +30,7 @@ import android.support.v7.widget.AppCompatImageView
 import android.util.AttributeSet
 import android.widget.Checkable
 
-import com.google.samples.apps.topeka.base.R
+import com.google.samples.apps.topeka.R
 import com.google.samples.apps.topeka.helper.ApiLevelHelper
 import com.google.samples.apps.topeka.model.Avatar
 import com.google.samples.apps.topeka.widget.outlineprovider.RoundOutlineProvider

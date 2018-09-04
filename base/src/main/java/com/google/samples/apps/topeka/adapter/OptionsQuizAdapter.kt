@@ -22,7 +22,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 import com.google.samples.apps.topeka.helper.inflate
-import com.google.samples.apps.topeka.base.R
+import com.google.samples.apps.topeka.R
 
 /**
  * A simple adapter to display a options of a quiz.

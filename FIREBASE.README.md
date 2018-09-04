@@ -1,10 +1,12 @@
 # Firebase Crashlytics Integration
 
-The original app for this example has been taken from here:
+In this workaround branch I just replaced the app name of the base module in its AndroidManifest.xml file with the one 
+of the app itself, so firebase finds the right id. As a result, I will have to replace also all the R class imports to
+use the app package id instead of the base package id.
 
-https://codelabs.developers.google.com/codelabs/android-instant-apps/#0
+But as expected, by doing this I get a new conflicting error when Trying to build the app:
 
-Now, I'm going to try to integrate Firebase Crashlytics following this official document:
+Program type already present: com.google.samples.apps.topeka.BuildConfig
+Message{kind=ERROR, text=Program type already present: com.google.samples.apps.topeka.BuildConfig, sources=[Unknown source file], tool name=Optional.of(D8)}
 
-https://firebase.google.com/docs/crashlytics/get-started
-
+So this workaround seems to be a dead end.

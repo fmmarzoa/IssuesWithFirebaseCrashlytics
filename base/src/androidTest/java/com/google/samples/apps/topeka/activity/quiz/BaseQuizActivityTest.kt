@@ -28,7 +28,7 @@ import android.support.test.espresso.matcher.ViewMatchers.withText
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 import android.view.View
-import com.google.samples.apps.topeka.base.R
+import com.google.samples.apps.topeka.R
 import com.google.samples.apps.topeka.SolveQuizUtil
 import com.google.samples.apps.topeka.TestLogin
 import com.google.samples.apps.topeka.activity.QuizActivity

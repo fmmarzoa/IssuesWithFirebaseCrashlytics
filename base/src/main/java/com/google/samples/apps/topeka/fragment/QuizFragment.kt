@@ -30,7 +30,7 @@ import android.widget.AdapterViewAnimator
 import android.widget.ListView
 import android.widget.ProgressBar
 import android.widget.TextView
-import com.google.samples.apps.topeka.base.R
+import com.google.samples.apps.topeka.R
 import com.google.samples.apps.topeka.adapter.QuizAdapter
 import com.google.samples.apps.topeka.adapter.ScoreAdapter
 import com.google.samples.apps.topeka.helper.ApiLevelHelper
