@@ -13,3 +13,8 @@ I'm going to add firebase crashlytics to the project now, following this officia
 
 https://firebase.google.com/docs/crashlytics/get-started
 
+After adding crashlytics I get the following error while building:
+
+_Crashlytics could not find the manifest. 
+Not found at /Users/fran/Desktop/Idea/android-topeka/base/build/intermediates/merged_manifests/debug/AndroidManifest.xml_
+
