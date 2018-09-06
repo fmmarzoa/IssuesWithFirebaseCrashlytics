@@ -1,19 +1,15 @@
 # Firebase Crashlytics Integration
 
-The original app for this example has been taken from here:
+I have updated the gradle wrapper to version 4.10 and the com.android.tools.build:gradle to version 3.3.0-alpha08
+as suggested by a comment in my StackOverflow question:
 
-https://codelabs.developers.google.com/codelabs/android-instant-apps/#0
+https://stackoverflow.com/questions/52099797/conflicts-with-google-instant-game-and-com-google-gms-google-services-plugin
 
-Integrated Firebase Crashlytics following this official document:
+Now the code at least builds without major problems. There is a warning saying that I should put the google services
+plugin at the bottom of the file in the instant module, but it turns out that it is already at the bottom of such file,
+so I'll ignore that.
+
+I'm going to add firebase crashlytics to the project now, following this official guide:
 
 https://firebase.google.com/docs/crashlytics/get-started
-
-I got into some support library conflicts right after adding com.google.gms.google-services. I managed to work those around.
-
-Now, if I try to build the APKs I get the following error, as expected:
-
-"No matching client found for package name 'com.google.samples.apps.topeka.base'"
-
-I'm going to add some branches with workarounds I have tried.
-
 
